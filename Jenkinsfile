@@ -2,7 +2,7 @@ def img
 pipeline {
     environment {
         registry = "chanreagon/python-jenkins"
-        registryCredential = '2da0e474-6e3f-4190-8f24-050dd0c9050b'
+        registryCredential = 'docker-hub-login'
         dockerImage = ''
     }
     agent any
